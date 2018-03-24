@@ -13,10 +13,13 @@ html {
 
 /* Header styling */
 
+.logo {
+  background-color: black;
+}
+
 .logo .container {
   display: flex;
   align-items: center;
-  background-color: black;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
 }
@@ -65,8 +68,11 @@ h1, h4 {
 
 /* Navigation bar styling */
 
+nav {
+    background-color: firebrick;
+}
+
 .navigation {
-  background-color: firebrick;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   display: flex;
@@ -132,4 +138,12 @@ h1, h4 {
 
 .info p {
   color: black;
+}
+
+/* Footer section styling */
+
+footer {
+  height: 5rem;
+  background-color: black;
+  padding: 5rem 0px;
 }
