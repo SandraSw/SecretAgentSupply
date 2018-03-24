@@ -35,4 +35,25 @@ html {
 
 .main-banner {
   background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+}
+
+.title {
+  background-color: black;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+}
+
+.title h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.title h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
