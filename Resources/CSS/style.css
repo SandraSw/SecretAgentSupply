@@ -1,0 +1,38 @@
+/* General styling */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+.container {
+  display: flex;
+  display: block;
+}
+
+/* Header styling */
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logo span {
+  font-size: 1rem;
+}
+
+/* Main banner styling */
+
+.main-banner {
+  background-image: url("../images/moto.jpeg");
+}
